@@ -88,8 +88,12 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+### outputs ###
+*.out
+*.day
 
 ### Input Files ###
 inputs/*.txt
+inputs/*.in
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,c
