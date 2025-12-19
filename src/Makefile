@@ -13,6 +13,10 @@ day3: day3.o array.o
 day4: day4.o array.o
 	$(CC) $(CFLAGS) -o 4.day day4.o array.o
 
+day5: day5.o array.o
+	$(CC) $(CFLAGS) -o 5.day day5.o array.o
+day5.o: day5.c
+	$(CC) $(CFLAGS) -c day5.c -o day5.o
 day4.o: day4.c
 	$(CC) $(CFLAGS) -c day4.c -o day4.o
 
